@@ -1,0 +1,28 @@
+This is A Simple TO-DO list application
+
+This will work on Classes, Lists, Constructors and Local Date/Time.
+
+-Works directly in the terminal
+-Add/Delete To-Do Tasks
+-Display Tasks in A minimal String/GUI
+-Display time and update options
+-Each task will have a delete/edit
+-Each task will display: the task itself, date initialized, date to complete by and options.
+-The main display will show the date, tasks, whose taskbook it is, the title "taskbook",
+and options available at the bottom
+-The user will move around with arrow keys and enter, and be automatically directed after selection
+-The application needs tests for every method
+
+WHAT IT NEEDS TO DO
+-The application has to display the main page, with the tasks,
+-display the options,
+-allow for keyboard and enter movement in the terminal,
+-only allow keyboard movement and enter
+-allow typing only when expected
+-allow for exiting the app
+-allow for entering the app
+-display the time and update
+-display the main page and use string as a sort of GUI.
+-update the time from the last time the application was opened
+
+
