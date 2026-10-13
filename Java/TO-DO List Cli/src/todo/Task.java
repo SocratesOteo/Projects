@@ -25,20 +25,34 @@ public class Task {
         this.createdAt = createdAt;
     }
 
-
-
+    /**
+     * ID of the task, that decided the order displayed of the task
+     * @return the ID of the task
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     *  The Title of the task( just the actual task)
+     * @return Title of the Task
+     */
     public String getTitle() {
         return title;
     }
 
+    /**
+     * The Completed At date to show completed tasks for the day.
+     * @return The CompletedAt date.
+     */
     public String getCompletedAt() {
         return completedAt;
     }
 
+    /**
+     * The CreatedAt Date that is displayed with every task.
+     * @return  The CreatedAt date.
+     */
     public String getCreatedAt() {
         return createdAt;
     }
