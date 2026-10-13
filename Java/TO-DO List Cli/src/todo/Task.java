@@ -4,7 +4,7 @@ package todo;
  * The To-Do Item Class that represent each individual to-do.
  * @author socrates
  */
-public class todoItem {
+public class Task {
     private int id;
     private String title;
     private String completedAt;
@@ -18,7 +18,7 @@ public class todoItem {
      * @param completedAt the date/time the item was completed
      * @param createdAt the date and time the item was created at.
      */
-    public todoItem(int id, String title, String completedAt, String createdAt) {
+    public Task(int id, String title, String completedAt, String createdAt) {
         this.id = id;
         this.title = title;
         this.completedAt = completedAt;
@@ -27,10 +27,20 @@ public class todoItem {
 
 
 
+    public int getId() {
+        return id;
+    }
 
+    public String getTitle() {
+        return title;
+    }
 
+    public String getCompletedAt() {
+        return completedAt;
+    }
 
-
-
+    public String getCreatedAt() {
+        return createdAt;
+    }
 }
 
